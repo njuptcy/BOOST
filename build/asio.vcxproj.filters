@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\FormalBuild_2\BOOST_LEARNING\Boost代码整理_上传github\to_push\boost_asio\accept_write_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FormalBuild_2\BOOST_LEARNING\Boost代码整理_上传github\to_push\boost_asio\http_request.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FormalBuild_2\BOOST_LEARNING\Boost代码整理_上传github\to_push\boost_asio\steady_timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FormalBuild_2\BOOST_LEARNING\Boost代码整理_上传github\to_push\boost_asio\time_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\FormalBuild_2\BOOST_LEARNING\Boost代码整理_上传github\to_push\boost_asio\time_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\FormalBuild_2\BOOST_LEARNING\Boost代码整理_上传github\to_push\boost_asio\which_to_run.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\FormalBuild_2\BOOST_LEARNING\Boost代码整理_上传github\to_push\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FA1A0774-09CA-3024-9170-A46927E02707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4B2AC5B7-3F6E-3F83-A7B8-010F201CFE43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

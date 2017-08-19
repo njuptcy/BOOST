@@ -1,0 +1,14 @@
+#include <functional>
+using namespace std::placeholders;
+void f(int a, int b, int c)
+{
+	cout <<a << " " <<b<<" "<<c<<endl;
+}
+int n = 10;
+auto f1 = std::bind(f,n,_1, _2);
+虽然外部的n改变了，但是f1内部的n并没有改变
+如果希望f1内的n引用外部的n，需要显式定义
+auto f1 = std::bind(f,std::ref(n), _1, _2);
+f1(20,30);
+输出：
+10,20,30

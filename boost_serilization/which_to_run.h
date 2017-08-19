@@ -1,0 +1,6 @@
+#pragma once
+//#define SERIALIZATON_WITH_MEM_FUNC
+//#define SERIALIZATION_WITH_FREE_FUNC
+//#define WITH_STRING
+
+#define WITH_VERSION

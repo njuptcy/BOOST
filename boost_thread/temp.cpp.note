@@ -1,0 +1,44 @@
+//
+//void  thread_fun_1(const  string  &str)
+//{
+//	mu.lock();
+//	while (i < str.length())
+//	{
+//		while (!(i % 2))
+//		{
+//			con_var_1.wait(mu);
+//		}
+//		if (i < str.length())
+//		{
+//			cout << "p1:" << str[i] << "\n";
+//		}
+//		++i;
+//		//i++后一定是奇数,但是如果是此线程先运行，则第一次通知print_2.wait()时它都不曾等待过
+//		con_var_2.notify_one();
+//	}
+//
+//	mu.unlock();
+//
+//}
+//
+//void  thread_fun_2(const  string  &str)
+//{
+//	mu.lock();
+//	while (i < str.length())
+//	{
+//		while (i % 2)
+//		{
+//			con_var_2.wait(mu);
+//		}
+//		if (i < str.length())
+//		{
+//			cout << "p2:" << str[i] << "\n";
+//		}
+//		++i;
+//		//i++后一定是奇数,但是如果是此线程先运行，则第一次通知print_2.wait()时它都不曾等待过
+//		con_var_1.notify_one();
+//
+//	}
+//	mu.unlock();
+//}
+////其中i可以是两个线程函数都能够访问的全局变量。

@@ -1,0 +1,6 @@
+F:/FormalBuild_2/BOOST_LEARNING/Boost代码整理_上传github/to_push/build/CMakeFiles/asio.dir
+F:/FormalBuild_2/BOOST_LEARNING/Boost代码整理_上传github/to_push/build/CMakeFiles/thread.dir
+F:/FormalBuild_2/BOOST_LEARNING/Boost代码整理_上传github/to_push/build/CMakeFiles/mpi.dir
+F:/FormalBuild_2/BOOST_LEARNING/Boost代码整理_上传github/to_push/build/CMakeFiles/serilization.dir
+F:/FormalBuild_2/BOOST_LEARNING/Boost代码整理_上传github/to_push/build/CMakeFiles/ALL_BUILD.dir
+F:/FormalBuild_2/BOOST_LEARNING/Boost代码整理_上传github/to_push/build/CMakeFiles/ZERO_CHECK.dir
